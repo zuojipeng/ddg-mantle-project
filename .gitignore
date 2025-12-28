@@ -4,6 +4,11 @@ node_modules/
 dist/
 build/
 docs/
+TALK.md
+PROJECT-STATUS.md
+DEMO-RUNBOOK.md
+CONFIG-AND-SECRETS.md
+CLOUDFLARE-PAGES.md
 artifacts/
 cache/
 coverage/

@@ -42,7 +42,10 @@ cp .env.example .env
 
 ### 填写配置（重要）
 
-敏感信息与配置填写位置请看：`CONFIG-AND-SECRETS.md`
+请在本地创建/填写配置文件（不要提交到 GitHub）：
+
+- 根目录 `.env`（从 `.env.example` 复制）
+- 前端 `frontend/.env`（从 `frontend/.env.example` 复制）
 
 ### 环境校验
 
@@ -106,12 +109,6 @@ DDG-Mantle-Project/
   - 确认用的是部署/注册设备的同一钱包账号
 - **部署报 chainId 不一致**：
   - 以 RPC 实际返回为准，`.env` 的 `CHAIN_ID` 需一致
-
-## 文档（仓库根目录）
-
-- `PROJECT-STATUS.md`：整体结构与现状能力
-- `TALK.md`：现场演讲稿
-- `CLOUDFLARE-PAGES.md`：Cloudflare Pages 线上部署说明
 
 ## License
 
