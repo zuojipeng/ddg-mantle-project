@@ -1,0 +1,30 @@
+{
+  "name": "ddg-mantle-project",
+  "version": "1.0.0",
+  "description": "Decentralized Device Guardian on Mantle",
+  "scripts": {
+    "predeploy": "node scripts/verify-env.js",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy-contracts.js --network mantleTestnet",
+    "verify-env": "node scripts/verify-env.js",
+    "start-agent": "node src/agent/device-simulator.js",
+    "start-frontend": "node scripts/start-frontend.js",
+    "build-frontend": "node scripts/build-frontend.js",
+    "demo": "node scripts/demo.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "axios": "^1.6.0",
+    "openai": "^4.20.0"
+  }
+}
+
+
