@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Button, Box, Typography, Alert } from "@mui/material";
 import { MANTLE_TESTNET } from "../utils/constants";
 
@@ -7,11 +7,7 @@ function WalletConnect({ onConnect }) {
   const [error, setError] = useState("");
   const [connecting, setConnecting] = useState(false);
 
-  useEffect(() => {
-    checkIfWalletIsConnected();
-  }, []);
-
-  const checkIfWalletIsConnected = async () => {
+  const checkIfWalletIsConnected = useCallback(async () => {
     try {
       if (!window.ethereum) return;
 
@@ -23,7 +19,11 @@ function WalletConnect({ onConnect }) {
     } catch (err) {
       console.error(err);
     }
-  };
+  }, [onConnect]);
+
+  useEffect(() => {
+    checkIfWalletIsConnected();
+  }, [checkIfWalletIsConnected]);
 
   const connectWallet = async () => {
     try {
