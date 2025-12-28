@@ -10,7 +10,7 @@
 - ✅ 实时监控仪表盘
 - ✅ 历史数据可追溯
 
-## Demo 闭环（黑客松演示路径）
+## Demo 闭环（演示路径）
 
 **设备模拟器（mock 设备）→ 上链写入状态 → AI/规则判断异常 → 异常原因写回链上 → 前端读取链上数据展示设备与告警**。
 
@@ -87,7 +87,7 @@ DDG-Mantle-Project/
 
 ## Demo 模式（可控触发异常）
 
-为了黑客松现场稳定演示，设备模拟器支持用环境变量“强制触发异常/加快上报”。
+为了现场演示更稳定，设备模拟器支持用环境变量“强制触发异常/加快上报”。
 
 详细说明见：`DEMO-RUNBOOK.md`
 
@@ -116,7 +116,7 @@ DDG-Mantle-Project/
 ## 文档（仓库根目录）
 
 - `PROJECT-STATUS.md`：整体结构与现状能力
-- `DEMO-RUNBOOK.md`：黑客松 demo 闭环跑通步骤与可控异常
+- `DEMO-RUNBOOK.md`：demo 闭环跑通步骤与可控异常
 - `TALK.md`：现场演讲稿
 - `CLOUDFLARE-PAGES.md`：Cloudflare Pages 线上部署说明
 
