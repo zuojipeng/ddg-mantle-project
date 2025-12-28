@@ -85,16 +85,10 @@ DDG-Mantle-Project/
 └── (docs/ 目录本地使用，不提交到 GitHub)
 ```
 
-## Demo 模式（可控触发异常）
-
-为了现场演示更稳定，设备模拟器支持用环境变量“强制触发异常/加快上报”。
-
-详细说明见：`DEMO-RUNBOOK.md`
 
 ## 重要说明（权限）
 
 合约读取接口带权限校验：默认只有 **owner**（部署/注册设备的地址）能读到设备详情。  
-所以前端 Demo 请用 **同一个钱包账号**连接（或后续通过 `grantPermission` 授权其它地址）。
 
 ## 技术栈
 
@@ -116,7 +110,6 @@ DDG-Mantle-Project/
 ## 文档（仓库根目录）
 
 - `PROJECT-STATUS.md`：整体结构与现状能力
-- `DEMO-RUNBOOK.md`：demo 闭环跑通步骤与可控异常
 - `TALK.md`：现场演讲稿
 - `CLOUDFLARE-PAGES.md`：Cloudflare Pages 线上部署说明
 
