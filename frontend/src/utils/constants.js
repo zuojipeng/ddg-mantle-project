@@ -15,14 +15,14 @@ export const CONTRACT_ABI = [
 
 export const MANTLE_TESTNET = {
   chainId: "0x138B", // 5003 in hex
-  chainName: "Mantle Testnet",
+  chainName: "Mantle Sepolia",
   nativeCurrency: {
     name: "MNT",
     symbol: "MNT",
     decimals: 18
   },
-  rpcUrls: ["https://rpc.testnet.mantle.xyz"],
-  blockExplorerUrls: ["https://explorer.testnet.mantle.xyz"]
+  rpcUrls: ["https://rpc.sepolia.mantle.xyz"],
+  blockExplorerUrls: ["https://explorer.sepolia.mantle.xyz"]
 };
 
 

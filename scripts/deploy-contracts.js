@@ -47,7 +47,7 @@ async function main() {
 
   console.log("\n✅ 部署完成！");
   console.log("\n🔍 在区块浏览器查看合约:");
-  console.log(`https://explorer.testnet.mantle.xyz/address/${deviceStatus.address}`);
+  console.log(`https://explorer.sepolia.mantle.xyz/address/${deviceStatus.address}`);
 }
 
 main()

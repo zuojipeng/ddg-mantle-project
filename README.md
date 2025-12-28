@@ -1,6 +1,6 @@
 # 🛡️ DDG - Decentralized Device Guardian
 
-基于 Mantle Testnet 的去中心化设备监控系统：**设备状态上链存证 + 权限控制 + AI/规则异常检测 + 前端仪表盘展示**。
+基于 Mantle（chainId **5003**）的去中心化设备监控系统：**设备状态上链存证 + 权限控制 + AI/规则异常检测 + 前端仪表盘展示**。
 
 ## 特性
 
@@ -20,7 +20,7 @@
 
 - Node.js **22**（仓库提供 `.nvmrc`，建议 `nvm use`）
 - MetaMask 钱包
-- Mantle Testnet 测试币（用于部署与上链写入）
+- Mantle 测试网测试币（用于部署与上链写入）
 
 ### 安装
 

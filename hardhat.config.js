@@ -24,7 +24,7 @@ module.exports = {
   },
   networks: {
     mantleTestnet: {
-      url: process.env.MANTLE_RPC_URL || "https://rpc.testnet.mantle.xyz",
+      url: process.env.MANTLE_RPC_URL || "https://rpc.sepolia.mantle.xyz",
       accounts,
       chainId: Number(process.env.CHAIN_ID) || 5003,
       gasPrice: 1000000000
